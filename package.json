@@ -10,7 +10,7 @@
     "watch-node": "nodemon dist/server.js",
     "watch-ts": "tsc -w",
     "deploy": "git add . && git commit -m Heroku && git push heroku master",
-    "heroku-postbuild": "tsc",
+    "heroku-postbuild": "cd .. && tsc",
     "heroku-prebuild": "cd client && npm install && npm run build"
   },
   "engines": {
