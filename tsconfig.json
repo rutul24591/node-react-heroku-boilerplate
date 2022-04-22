@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "lib": ["es2015"],
+  // "include": [
+  //   "src/**/*.ts",
+  //   "dist"
+  // ],
+  // "exclude": [
+  //   "node_modules"
+  // ],
+  // "files": [
+  //   "./node_modules/@types/mocha/index.d.ts",
+  // ],
+}
+
