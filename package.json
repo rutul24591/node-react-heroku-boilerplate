@@ -5,10 +5,9 @@
   "main": "dist/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc && cd client && npm install && npm run build",
+    "build": "cd client && npm install && npm run build && tsc",
     "start": "node dist/server.js",
     "lint": "npx eslint . --ext .ts",
-    "postinstall": "tsc",
     "watch-node": "nodemon dist/server.js",
     "watch-ts": "tsc -w",
     "deploy": "git add . && git commit -m Heroku && git push heroku master"
